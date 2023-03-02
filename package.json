@@ -1,0 +1,31 @@
+{
+  "name": "backend-app-hotels",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "babel src -d dist",
+    "dev": "nodemon src --exec babel-node"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/VictorOPerez/backend-app-hotels.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/VictorOPerez/backend-app-hotels/issues"
+  },
+  "homepage": "https://github.com/VictorOPerez/backend-app-hotels#readme",
+  "dependencies": {
+    "express": "^4.18.2"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.21.0",
+    "@babel/core": "^7.21.0",
+    "@babel/node": "^7.20.7",
+    "@babel/preset-env": "^7.20.2",
+    "nodemon": "^2.0.21"
+  }
+}
