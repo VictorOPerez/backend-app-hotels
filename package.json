@@ -19,7 +19,9 @@
   },
   "homepage": "https://github.com/VictorOPerez/backend-app-hotels#readme",
   "dependencies": {
-    "express": "^4.18.2"
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "mongoose": "^7.0.0"
   },
   "devDependencies": {
     "@babel/cli": "^7.21.0",
